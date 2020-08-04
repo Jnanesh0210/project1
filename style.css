@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #eee;
+  }
+  
+  /* navbar */
+  
+  .sidebar {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/img1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bottom-border {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .sidebar .active {
+    background-color: #2155fd;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111;
+    transition: all .3s ease;
+  }
+  
+  .sidebar .active:hover {
+    background-color: #262af7;
+    transform: translateY(-3px);
+  }
+  
+  .sidebar-link {
+    transition: all .3s ease;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgb(32, 78, 228);
+    border-radius: 7px;
+  }
+  
+  
+  .search {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+    transition: all .4s ease;
+  }
+  
+  .search:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid  #0840f7;
+  }
+  
+  .search-btn {
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #eee;
+    transform: translateY(-1px);
+  }
+  
+  .icon-notify {
+    position: relative;
+  }
+  
+  .icon-notify-link::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #3336fa;
+  }
+.a{
+    color: rgb(238, 30, 30) !important;
+}
+.b{
+    color: rgba(196, 53, 53, 0.61);
+}
+.c{
+  color: rgb(185, 45, 45) !important;
+}
+.d{
+  color: rgba(170, 39, 39, 0.61);
+}
+.e{
+  color: rgb(241, 77, 12) !important;
+}
+.f{
+  color: rgba(153, 99, 63, 0.61);
+}
+.g{
+  color: rgb(96, 240, 39) !important;
+}
+.h{
+  color: rgba(54, 141, 83, 0.61);
+}
+.card:hover{
+  transform:scale3d(1.05,1.05,1.05);
+    transition: 0.35s;
+    background-color: rgba(216, 230, 230, 0.288);
+    box-shadow: 4px 4px 4px 4px rgba(163, 165, 165, 0.521);
+}
+table tr:hover{
+  background-color: rgba(216, 230, 230, 0.288);
+}
+.j{
+  color: beige !important;
+}
